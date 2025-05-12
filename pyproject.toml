@@ -1,0 +1,21 @@
+[project]
+name = "treetracer"
+version = "0.0.1"
+description = "An app to visualize phylogenetic tree topology convergence"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dash>=3.0.4",
+    "dash-mantine-components>=1.2.0",
+    "pandas>=2.2.3",
+]
+
+[project.scripts]
+treetracer = "treetracer:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["treetracer*"]
+
+[tool.setuptools.package-data]
+"treetracer" = ["assets/*"]
