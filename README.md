@@ -1,6 +1,6 @@
 # TreeTracer
 
-TreeTracer is tool that visualizes tree topology traces projected to an MDS space.
+TreeTracer is tool to visualize phylogenetic tree space.
 
 ## Recommended installation and usage (Linux/macOS)
 
@@ -16,3 +16,25 @@ Or using Homebrew:
 brew install uv
 ```
 
+### 2. Clone the repo
+
+```
+git clone https://github.com/hongsamL/treetracer.git
+cd treetracer
+```
+### 3. Create and activate a virtual environment with `uv`
+
+```
+uv venv --python 3.11
+source .venv/bin/activate
+```
+### 4. Install TreeTracer
+```
+uv pip install .
+```
+
+### 5. Run treetracer
+
+```
+treetracer
+```
