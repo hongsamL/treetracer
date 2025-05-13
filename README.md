@@ -41,6 +41,6 @@ uv run treetracer
 
 ### NOTE
 
-To run each time using `uv` it's NOT necessary to the python virtual environment using `source .venv/bin/activate`. 
+To run each time using `uv` it's NOT necessary to load the python virtual environment using `source .venv/bin/activate`. 
 
 `uv run treetracer` will automatically take care of this.
