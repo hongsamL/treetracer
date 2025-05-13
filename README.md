@@ -30,11 +30,11 @@ source .venv/bin/activate
 ```
 ### 4. Install TreeTracer
 ```
-uv pip install .
+uv pip install -e .
 ```
 
 ### 5. Run treetracer
 
 ```
-treetracer
+uv run treetracer
 ```
