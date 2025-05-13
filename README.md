@@ -4,8 +4,14 @@ TreeTracer is tool to visualize phylogenetic tree space.
 
 ## Recommended installation and usage (Linux/macOS)
 
-### 1. Install the `uv` package manager
+### 1. Install the [`uv` package manager](https://docs.astral.sh/uv/getting-started/installation/#installation-methods) using one of these suggested options
 
+Using `curl`
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Or using `wget`
 ```
 wget -qO- https://astral.sh/uv/install.sh | sh
 ```
