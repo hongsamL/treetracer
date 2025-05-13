@@ -22,10 +22,10 @@ brew install uv
 git clone https://github.com/hongsamL/treetracer.git
 cd treetracer
 ```
-### 3. Create and activate a virtual environment with `uv`
+### 3. Sync dependencies and activate a virtual environment with `uv`
 
 ```
-uv venv --python 3.11
+uv sync
 source .venv/bin/activate
 ```
 ### 4. Install TreeTracer
