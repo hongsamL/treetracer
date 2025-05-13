@@ -38,3 +38,9 @@ uv pip install -e .
 ```
 uv run treetracer
 ```
+
+### NOTE
+
+To run each time, make sure you are loading the python virtual environment using `source .venv/bin/activate` before `uv run treetracer`.
+
+To exit the environtment either close the terminal window of type `deactivate`.
