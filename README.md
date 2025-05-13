@@ -41,6 +41,6 @@ uv run treetracer
 
 ### NOTE
 
-To run each time, make sure you are loading the python virtual environment using `source .venv/bin/activate` before `uv run treetracer`.
+To run each time using `uv` its not necessary to the python virtual environment using `source .venv/bin/activate`. 
 
-To exit the environtment either close the terminal window of type `deactivate`.
+`uv run treetracer` will automatically take care of this.
