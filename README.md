@@ -50,3 +50,9 @@ uv run treetracer
 To run each time using `uv` it's NOT necessary to load the python virtual environment using `source .venv/bin/activate`. 
 
 `uv run treetracer` will automatically take care of this.
+
+You can also create an alias to run treetracer from any location in the terminal with:
+
+```
+alias treetracer='uv run --project <repo directory> treetracer'
+```
