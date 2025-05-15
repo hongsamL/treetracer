@@ -19,5 +19,3 @@ include = ["treetracer*"]
 
 [tool.setuptools.package-data]
 "treetracer" = ["assets/*"]
-
-tool.uv.package = true
